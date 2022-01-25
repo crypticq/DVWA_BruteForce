@@ -50,7 +50,7 @@ def login(username , password):
 		if 'Welcome' in r.text:
 			
 			print('*' * 99)
-			snake = u"\U0001F40D" * 15
+			snake = u"\U0001F480" * 15
 			print(style.RED+f'Hacked username is {username} , password is {password} {snake}')
 			print('*' * 99)
 			sys.exit()
